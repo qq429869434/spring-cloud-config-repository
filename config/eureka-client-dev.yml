@@ -1,0 +1,14 @@
+logplatform:
+  systemCode: W154
+  application-log-code: 1
+
+rabbitmq:
+  testimage:
+    exchange: test.image.exchange
+    queue: test.image.queue
+    routingKeys: testimage
+    type: direct
+    factory: rabbitListenerContainerFactory
+
+rabbitmq_open:
+  testimage: true

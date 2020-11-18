@@ -1,0 +1,3 @@
+consumer:
+  queues: epolicy
+  receiverOnOff: 1
